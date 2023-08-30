@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+  }
+nav {
+    padding: 10px 40px;
+    border-bottom: 1px dotted
+      hsl(0deg 0% 0% / 0.2);
+    background-color: #1F2937;
+}
+ul {
+    list-style-type: none;
+    align-items: baseline;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    gap: 40px;
+}
+ul a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  .logo a {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+  }
+
+  li.logo {
+    margin-right: auto;
+  }
