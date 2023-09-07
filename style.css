@@ -6,8 +6,15 @@ body {
 
 nav {
     padding: 10px 40px;
-    border-bottom: 1px dotted hsl(0deg 0% 0% / 0.2);
     background-color: #1F2937;
+}
+
+footer{
+    padding: 40px;
+    text-align: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 ul {
@@ -60,7 +67,7 @@ li.logo {
 
 button{
     margin-top: 5px;
-    width: 20%;
+    width: 200px;
     background-color: #3882f6;
     border-style: none;
     padding: 5px;
@@ -109,6 +116,7 @@ button{
     font-style: italic;
     color: #1F2937;
     margin: 0;
+    font-weight: lighter;
 }
 
 .sign{
@@ -116,3 +124,34 @@ button{
     margin-top: 0;
 }
 
+.fourth-container{
+    margin: 80px 120px;
+}
+
+.action{
+    display: flex;
+    background-color: #3882f6;
+    padding: 40px 100px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+
+.bottom-button{
+    border-color: #e5e7eb;
+    border: solid;
+}
+
+.call{
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.call-subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
